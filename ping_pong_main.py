@@ -22,3 +22,15 @@ class Player(GameSprite):
     def update_1(self):
         keys = key.get_pressed()
         if keys[]
+        
+        
+back = (200, 255, 255)
+win_wight = 600 
+win_height = 500
+window = display.set_mode((win_wight, win_height))
+window.flit(back)
+
+game = True
+finish = False
+clock = time.Clock()
+FPS = 60
